@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@700&display=swap');
+*{
+  font-family: 'Noto Serif TC', serif;
+	text-align: center;
+}
+.navbar-brand{
+  -webkit-transition: all 1s ease 0s;
+  -moz-transition: all 1s ease 0s;
+  -ms-transition: all 1s ease 0s;
+  -o-transition: all 1s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+.squ{
+	margin: auto;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	/*border: solid red 2px;*/
+	width: 500px;
+	background-color: rgba(255,255,255,0.5);
+	color: #e5b388;
+}
+.squoth{
+	background-color: rgba(255,255,255,0.3);
+	color: #7b6857;
+	margin: auto;
+	padding-top: 45px;
+	padding-bottom: 5px;
+	width: 500px;
+}
+.squbot{
+	padding-top: 10px;
+	color: #FFF;
+	margin: auto;
+	width: 50%;
+}
+.bg-muted{
+	background-color: #d6d790;
+}
+.navbar-brand:hover {
+  -webkit-opacity: 0.3;
+  -moz-opacity: 0.3;
+  opacity: 0.3;
+}
+.navbar-nav{
+  margin-left:100px;
+}
+body{background-image:url('https://github.com/CPY0419/web2021/blob/gh-pages/P102014.jpg?raw=true');
+	background-size: cover;
+	background-attachment:fixed;
+}
+
+.col-sm-m{
+  display: inline-block;
+  margin-top: 50px;
+}
+.p02{
+  max-width:120%;
+  width: auto;
+  height:auto;
+}
+section{
+	/*border: solid 2px red;*/
+	position: relative;
+  background-color: rgba(255,255,255,0);
+	color: #fff;
+  padding: 15px;
+}
+section li{
+  list-style: square;
+}
+section#topic{
+	margin-top: 80px;
+	margin-bottom: 10px;
+	background-color: rgba(255,255,255,0);
+	color: #e5b388;
+}
+.toop{
+	margin-bottom: 15px;
+	background: no-repeat url('https://github.com/CPY0419/img/blob/gh-pages/_DSC06.jpg?raw=true');*/
+	width: 500px;
+	height: 180px;
+	background-position:center;
+  /*border: solid white ;*/
+	display: block;
+}
+section#sbot{
+	margin-top: 60px;
+	color: #fff;
+	background-color:rgba(214,215,144,0.65);
+}
+section a{
+  color: #59493f;
+}
+.inside{
+	color: #7b6857;
+}
+.toTop-arrow {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border-radius: 50%;
+  opacity: 0.6;
+  background: #987e5e;
+  cursor: pointer;
+  position:fixed;
+  right: 1rem;
+  bottom: 1rem;
+  display: none;
+}
+.toTop-arrow::before, .toTop-arrow::after {
+  width: 18px;
+  height: 5px;
+  border-radius: 3px;
+  background: #FFF;
+  position: absolute;
+  content: "";
+}
+.toTop-arrow::before {
+  transform: rotate(-45deg) translate(0, -50%);
+  left: 0.5rem;
+}
+.toTop-arrow::after {
+  transform: rotate(45deg) translate(0, -50%);
+  right: 0.5rem;
+}
+.toTop-arrow:focus {outline: none;}
